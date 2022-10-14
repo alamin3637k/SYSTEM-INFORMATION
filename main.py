@@ -1,15 +1,10 @@
 from wmi import WMI
-from subprocess import check_output
 from os import system, name
 from time import sleep
 
 
 class App:
     def __init__(self):
-        self.Id: list[str] = check_output(['systeminfo']).decode('utf-8').split('\n')
-        self.new = []
-        self.item = None
-        self.i = None
         self.processor_name = WMI().Win32_Processor()[0].name
         self.gpu_name = WMI().Win32_VideoController()[0].name
         if name == "nt":
