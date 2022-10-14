@@ -1,6 +1,5 @@
 from wmi import WMI
 from os import system, name
-from time import sleep
 
 
 class App:
@@ -13,7 +12,6 @@ class App:
     def run(self):
         system("systeminfo")
         print(f"PROCESSOR NAME: {self.processor_name}\nGPU NAME: {self.gpu_name}")
-        sleep(True)
 
 
 if __name__ == "__main__":
