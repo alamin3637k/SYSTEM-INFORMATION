@@ -12,6 +12,7 @@ class App:
     def run(self):
         system("systeminfo")
         print(f"PROCESSOR NAME: {self.processor_name}\nGPU NAME: {self.gpu_name}")
+        input()
 
 
 if __name__ == "__main__":
