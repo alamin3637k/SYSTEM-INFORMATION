@@ -1,2 +1,7 @@
 # SYSTEM-INFORMATION
 SHOW YOUR SYSTEM INFO
+
+
+DOWNLOAD THE EXE FILE TO RUN AS A APPLICATION (ONLY WINDOWS):
+
+  https://drive.google.com/file/d/1e4PwhMQ1LagFNhkdHYYngEanMH5AiO9-/view?usp=sharing
